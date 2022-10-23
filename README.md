@@ -9,7 +9,7 @@ Our team, named *Trijó*, consists of the following members:<br/>
 The primary objective is to extract a number of facial features from images of faces. For this purpose, we use some databases of facial images available online, along with some pre-trained, online available models to accelerate the learning process
 
 ### Database sources
-We found 2 database sources for the project, the first one is the UTKFace database, the second one is the FairFace dataset (Face Attribute Dataset for Balanced Race, Gender, and Age).
+We found 2 database sources for the project, both of them contain 4 labels. The first one is the UTKFace database, the second one is the FairFace dataset (Face Attribute Dataset for Balanced Race, Gender, and Age).
 #### UTKFace dataset
 The labels of each face image is embedded in the file name, formated like [age]_[gender]_[race]_[date&time].jpg. The dataset contains over 20.000 face images.
 The labels have a scale about which label what kind of values contain
