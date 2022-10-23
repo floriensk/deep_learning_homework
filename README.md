@@ -3,7 +3,7 @@
 Our team, named *Trijó*, consists of the following members:<br/>
 + Soroncz-Szabó, Flórián (J0QWCB)
 + Schäffer, Tamás (CO2WYC)
-+ Frecska, Hajnalka ()
++ Frecska, Hajnalka (C1MTMR)
 
 ## Aim of the project
 The primary objective is to extract a number of facial features from images of faces. For this purpose, we use some databases of facial images available online, along with some pre-trained, online available models to accelerate the learning process
