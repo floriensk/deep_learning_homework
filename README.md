@@ -43,4 +43,4 @@ The pre-trained model in the top is used for the realization of a transfer learn
 + the comparison of the training time in connection with accuracy
 + the benefits of different activation functions on model parameters
 + how does DropOut and freezing affect the accuracy
-+ effect of the number of Dense and Conv2D layers
++ effects of the number of Dense and Conv2D layers
