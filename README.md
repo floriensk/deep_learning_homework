@@ -32,7 +32,10 @@ https://github.com/dchen236/FairFace
 ### Objective as a homework
 By completing this project we would like to assess how a few different hyperparameter settings and training methods influence the learning curve (time needed and achieved accuracy).
 
-## realization and implementation
+## How to run
+The whole functionality is implemented in a single Jupyter notebook. Running the notebook performs the fetching and preprocessing of necessary data, the creation and training of our model, as well as future evaluation steps. Simply run the whole notebook.
+
+## Realization and implementation
 Our plan is to aim on teaching deep neural networks and compare the related features. The first one is a sequential model with 2 dimensional convolution layers to gain as much features as we can, between them are standing some 2D MaxPooling layers, and at the end of the network there is a flattening and a Dense layer with One Hot encoding (classification with softmax activation). This is responsible for the correct representation of the labels we are working with, with the One Hot encoding the results can be easily and separately shown for labels with different number of outputs.
 
 We have already written a python code to read and attach the dataset to the model for train, validate and test. It is downloading the dataset folder from Google Drive and unzips the zipped folder to use it easily for the models.
