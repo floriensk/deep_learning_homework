@@ -31,3 +31,8 @@ https://github.com/dchen236/FairFace
 
 ### Objective as a homework
 By completing this project we would like to assess how a few different hyperparameter settings and training methods influence the learning curve (time needed and achieved accuracy).
+
+## realization and implementation
+Our plan is to aim on teaching deep neural networks and compare the related features. The first one is a sequential model with 2 dimensional convolution layers to gain as much features as we can, between them are standing some 2D MaxPooling layers, and at the end of the network there is a flattening and a Dense layer with One Hot encoding (classification with softmax activation). This is responsible for the correct representation of the labels we are working with. 
+
+The pre-trained model in the top is used for a the realization of a transfer learning model and its results will be compared with the results of the initial model. In addition the project does not aim only at the hyperparameter optimization of the model, rather the target is to find out which method can be used with not only one and same database, the comparison of the training time in connection with accuracy and the effects of different activation functions on model parameters.
