@@ -33,8 +33,14 @@ https://github.com/dchen236/FairFace
 By completing this project we would like to assess how a few different hyperparameter settings and training methods influence the learning curve (time needed and achieved accuracy).
 
 ## realization and implementation
-Our plan is to aim on teaching deep neural networks and compare the related features. The first one is a sequential model with 2 dimensional convolution layers to gain as much features as we can, between them are standing some 2D MaxPooling layers, and at the end of the network there is a flattening and a Dense layer with One Hot encoding (classification with softmax activation). This is responsible for the correct representation of the labels we are working with. 
+Our plan is to aim on teaching deep neural networks and compare the related features. The first one is a sequential model with 2 dimensional convolution layers to gain as much features as we can, between them are standing some 2D MaxPooling layers, and at the end of the network there is a flattening and a Dense layer with One Hot encoding (classification with softmax activation). This is responsible for the correct representation of the labels we are working with, with the One Hot encoding the results can be easily and separately shown for labels with different number of outputs.
 
 We have already written a python code to read and attach the dataset to the model for train, validate and test. It is downloading the dataset folder from Google Drive and unzips the zipped folder to use it easily for the models.
 
-The pre-trained model in the top is used for the realization of a transfer learning model and its results will be compared with the results of the initial model. In addition the project does not aim only at the hyperparameter optimization of the model, rather the target is to find out which method can be used with not only one and same database, the comparison of the training time in connection with accuracy and the effects of different activation functions on model parameters.
+The pre-trained model in the top is used for the realization of a transfer learning model and its results will be compared with the results of the initial model. In addition the project does not aim only at the hyperparameter optimization of the model, rather the target is to find out the following viewpoints:
+
++ which method can be used with not only one and same database
++ the comparison of the training time in connection with accuracy
++ the benefits of different activation functions on model parameters
++ how does DropOut and freezing affect the accuracy
++ effect of the number of Dense and Conv2D layers
