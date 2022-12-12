@@ -10,7 +10,7 @@ The primary objective is to extract a number of facial features from images of f
 
 ### Medium post
 
-The medium blog post we write is an essay according to the topic face recognition neural networks we choose. The essay is about to describe the function and the plan in 2000 characters. As a requirement, it will be written in hungarian.
+The medium blog post we write is an essay according to the topic face recognition neural networks we chose. The essay is about to describe the function and the plan in 2000 characters. As a requirement of this subject, it will be written in hungarian.
 
 A projektet a "Deep learning a gyakorlatban Python és LUA alapon" (http://smartlab.tmit.bme.hu/oktatas-deep-learning) keretein belül csináltuk.
 
