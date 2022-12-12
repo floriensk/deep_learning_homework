@@ -8,6 +8,15 @@ Our team, named *Trijó*, consists of the following members:<br/>
 ## Aim of the project
 The primary objective is to extract a number of facial features from images of faces. For this purpose, we use some databases of facial images available online, along with some pre-trained, online available models to accelerate the learning process
 
+### Medium post
+
+The medium blog post we write is an essay according to the topic face recognition neural networks we choose. The essay is about to describe the function and the plan in 2000 characters. As a requirement, it will be written in hungarian.
+
+A projektet a "Deep learning a gyakorlatban Python és LUA alapon" (http://smartlab.tmit.bme.hu/oktatas-deep-learning) keretein belül csináltuk.
+
+The project belongs to the subject "Deep learning a gyakorlatban Python és LUA alapon" (http://smartlab.tmit.bme.hu/oktatas-deep-learning) within we made the network.
+
+
 ### Database sources
 We found 2 database sources for the project, both of them contain 4 labels. The first one is the UTKFace database, the second one is the FairFace dataset (Face Attribute Dataset for Balanced Race, Gender, and Age).
 #### UTKFace dataset
